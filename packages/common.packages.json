@@ -1,0 +1,24 @@
+{
+	"packages": [
+		{
+			"cli": [
+				{
+					"name": "htop"
+				}
+			],
+		},
+		"applications": [
+			{
+				"name": "firefox",
+				"type": "browser"
+			}
+			{
+				"name": "google-chrome",
+				"type": "browser"
+			}
+		],
+		"programming": [
+
+		]
+	]
+}

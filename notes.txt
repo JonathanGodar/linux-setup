@@ -1,0 +1,32 @@
+installera nvim, setta upp nvim
+installera git, node, ripgrep
+
+firefox, google-chrome, beekeeper studio
+
+setta upp yay. 
+setta upp zsh, alacritty <- nerd-fonts-hack 
+
+För tiling window:
+lightdm + config, awesome, picomp, nitrogen, gnome-keyring, sox (för play commandet), sox (för play commandet), playerctl ( sätt igång dess service playerctld)
+redshift, man-db, bluez, bluez-utils, blueman
+
+wget, unzip (lsp nvim)
+
+
+Emulation:
+qemu, libvirt, virt-manager, dnsmasq
+
+sudo usermod -G libvirt -a `whoami` 
+systemctl enable libvirt
+
+
+Programmering:
+node, yarn, python3, visual-studio-code-bin, postman, slack, docker, docker-compose, tmux
+
+ljud:
+pavucontrol
+
+
+nvidia-settings
+
+Avinstaller chromedriver
