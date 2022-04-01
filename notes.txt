@@ -1,16 +1,23 @@
 installera nvim, setta upp nvim
-installera git, node, ripgrep
+installera git, node, ripgrep, man-db,
 
 firefox, google-chrome, beekeeper studio
 
 setta upp yay. 
+
 setta upp zsh, alacritty <- nerd-fonts-hack 
 
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+
 För tiling window:
-lightdm + config, awesome, picomp, nitrogen, gnome-keyring, sox (för play commandet), sox (för play commandet), playerctl ( sätt igång dess service playerctld)
-redshift, man-db, bluez, bluez-utils, blueman
+lightdm + config, awesome, picomp, nitrogen, gnome-keyring, sox (för play commandet), playerctl ( sätt igång dess service playerctld )
+redshift,  bluez, bluez-utils, blueman
 
 wget, unzip (lsp nvim)
+
+
 
 
 Emulation:
@@ -28,5 +35,4 @@ pavucontrol
 
 
 nvidia-settings
-
-Avinstaller chromedriver
+Avinstallera chromedriver
