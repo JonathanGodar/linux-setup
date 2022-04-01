@@ -1,0 +1,39 @@
+# Programming
+nvim
+# visual-studio-code-bin
+# postman
+# slack
+# docker
+
+
+
+git
+node
+python3
+tmux
+ripgrep
+
+
+# Programs
+google-chrome
+alacritty
+
+# CLI-utils
+htop
+man-db
+
+# Window manager
+sddm
+awesome
+picomp
+nitrogen
+gnome-keyring
+sox
+playerctl
+redshift
+pavucontrol
+nvidia-settings
+
+
+# Essentials
+stow
