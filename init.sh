@@ -2,7 +2,7 @@
 
 
 archSetup() {
-	sudo pacman -S --noconfirm git
+	sudo pacman --noconfirm -S git
 
 	installYay
 	cat ./packages/packages.txt | grep -v ^# | xargs | yay -S --noconfirm
@@ -22,7 +22,7 @@ updateConfigurations
 
 installYay(){
 	# Required for installing yay
-	sudo pacman -S --noconfirm base-devel
+	sudo pacman --noconfirm -S base-devel
 
 	git clone https://aur.archlinux.org/yay.git
 	cd yay
