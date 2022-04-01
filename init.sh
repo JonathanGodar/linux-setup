@@ -5,7 +5,7 @@ archSetup() {
 	echo "-> Installing git"
 	sudo pacman --noconfirm -S git
 
-	cloneGitRepo()
+	cloneGitRepo
 
 	echo "-> Installing yay"
 	installYay
