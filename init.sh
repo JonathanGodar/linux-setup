@@ -5,6 +5,8 @@ archSetup() {
 	echo "-> Installing git"
 	sudo pacman --noconfirm -S git
 
+	cloneGitRepo()
+
 	echo "-> Installing yay"
 	installYay
 	echo "-> Yay Installed"
@@ -39,5 +41,15 @@ installYay(){
 	cd ../
 }
 
-script_path=`pwd`
+cloneGitRepo(){
+	git clone https://github.com/JonathanGodar/linux-setup
+}
+
+
+cleanUp() {
+	echo "CLEANUP SCRIPT NOT DONE"
+}
+
+
+script_path=`pwd`/linux-setup
 archSetup
