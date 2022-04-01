@@ -5,6 +5,9 @@ archSetup() {
 	sudo pacman --noconfirm -S git
 
 	installYay
+
+	cd $script_path
+
 	cat ./packages/packages.txt | grep -v ^# | xargs | yay -S --noconfirm
 
 	updateConfigurations
