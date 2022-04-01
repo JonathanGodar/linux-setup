@@ -12,6 +12,7 @@ archSetup() {
 	cd $script_path
 
 	echo "-> Installing all packages from \"packages.txt\""
+	echo "$script_path"
 	cat ./packages/packages.txt | grep -v ^# | xargs yay -S --noconfirm
 
 	updateConfigurations
