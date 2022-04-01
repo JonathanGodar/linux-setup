@@ -2,13 +2,17 @@
 
 
 archSetup() {
+	echo "-> Installing git"
 	sudo pacman --noconfirm -S git
 
+	echo "-> Installing yay"
 	installYay
+	echo "-> Yay Installed"
 
 	cd $script_path
 
-	cat ./packages/packages.txt | grep -v ^# | xargs | yay -S --noconfirm
+	echo "-> Installing all packages from \"packages.txt\""
+	cat ./packages/packages.txt | grep -v ^# | xargs yay -S --noconfirm
 
 	updateConfigurations
 }
