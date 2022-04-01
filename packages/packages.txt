@@ -1,11 +1,9 @@
 # Programming
-nvim
+neovim
 # visual-studio-code-bin
 # postman
 # slack
 # docker
-
-
 
 git
 node
@@ -21,11 +19,12 @@ alacritty
 # CLI-utils
 htop
 man-db
+zsh
 
 # Window manager
 sddm
 awesome
-picomp
+picom
 nitrogen
 gnome-keyring
 sox
