@@ -17,8 +17,9 @@ redshift,  bluez, bluez-utils, blueman
 
 wget, unzip (lsp nvim)
 
+FIXA oh-my-zsh!!!!
 
-
+FÖR PULSE AUDIO: gå in i /usr/share/pipewire/media-session.d/media-session.conf och kommentera ut suspend-node
 
 Emulation:
 qemu, libvirt, virt-manager, dnsmasq
